@@ -1,0 +1,281 @@
+.clothes
+{
+    list-style-type:none;
+    margin: 2px;
+    padding: 0;
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+}
+
+.clothes li
+{
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    
+    background-color: #F3F3F3;
+    border-bottom: 0;
+}
+
+.end-li
+{
+    border-bottom: 2px solid #ddd;
+}
+
+.clothes li:hover
+{
+    background-color: #0056a6;
+    color: white;
+}
+
+hr
+{
+    position: relative;
+    top: 8px;
+}
+
+ul.contact
+{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.contact li
+{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+    background-color: #ddd;
+    margin-right: 10px;
+}
+
+.contact li a
+{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    
+}
+
+i::before
+{
+    font-size: 18px;
+    color: black;
+}
+
+li a:hover
+{
+    background-color: #a64200;
+    color: white;
+}
+
+
+
+
+
+/****************************************************BÀI TẬP VỀ TABLE ********************************************/
+table
+{
+    font-family: 'Roboto', sans-serif;
+    /*Đặt ở table chứ không phải th,td*/
+    border-spacing: 0;
+    
+}
+
+thead
+{
+    color: white;
+    background-color: #01987A;
+    /*text-align: left;*/
+    
+}
+
+th,td
+{
+    box-sizing: border-box;
+    width: 104px;
+    height: 40px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.id 
+{
+    width: 55px;
+}
+
+.age
+{
+    width: 70px;
+}
+
+
+
+
+/****************************************************BÀI TẬP VỀ POSITION ********************************************/
+*
+{
+    box-sizing: border-box;
+}
+
+div.menu
+{
+    height: 45px;
+    background-color: rgb(234, 85, 31);
+    color: white;
+    font-weight: 600;
+    padding-right: 67vw;
+    border-radius: 8px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    left: 0; 
+    
+}
+
+div.main
+{
+    background-color: #cbcbcb;
+    height: 1000px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size:20px;
+    position: relative;
+    
+}
+
+.item
+{
+    width: 100px;
+    height:60px;
+    border-radius: 8px;
+    color:white;
+    line-height: 60px;
+    text-align: center;
+}
+
+.one
+{
+    background-color: #D44E00;
+}
+
+.two
+{
+    background-color: #D40000;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.three
+{
+    position: absolute;
+    background-color: #369400;
+    right: 45px;
+    bottom: 40px;
+}
+
+.four
+{
+    background-color: #2A00D4;
+    position: absolute;
+    left: 60px;
+    bottom: 60px;
+}
+
+.call
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    background-color: #147A00;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+
+    position: fixed;
+    z-index: 2;
+    bottom: 30px;
+    right: 30px;
+}
+
+i
+{
+    font-size: 24px;
+    color: white;
+}
+
+
+.content
+{
+    background-color: #0065bc;
+    color: white;
+    border-radius: 8px;
+    padding: 80px 50px;
+    margin: 30px 8px 8px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.content p::first-letter
+{
+    font-size: 50px;
+
+}
+
+.content p::first-line
+{
+    text-transform: uppercase;
+}
+
+
+.content p::before
+{
+    content: " ";
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #0000002d;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+.content p::after
+{
+    content: " ";
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #0000002d;
+
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+
+}
+
